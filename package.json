@@ -1,7 +1,7 @@
 {
-  "name": "idesoft-badges",
-  "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "name": "@idesoftsystems/idesoft-badges",
+  "version": "0.1.0",
+  "description": "Idesoft Systems Badges Components",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -28,6 +28,9 @@
     "jest": "26.0.1",
     "jest-cli": "26.0.1",
     "puppeteer": "2.1.1"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   },
   "license": "MIT"
 }
