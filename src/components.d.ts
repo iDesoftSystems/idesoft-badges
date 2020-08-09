@@ -8,20 +8,6 @@ import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface IdesoftCopyright {
     }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first": string;
-        /**
-          * The last name
-         */
-        "last": string;
-        /**
-          * The middle name
-         */
-        "middle": string;
-    }
 }
 declare global {
     interface HTMLIdesoftCopyrightElement extends Components.IdesoftCopyright, HTMLStencilElement {
@@ -30,37 +16,15 @@ declare global {
         prototype: HTMLIdesoftCopyrightElement;
         new (): HTMLIdesoftCopyrightElement;
     };
-    interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
-    }
-    var HTMLMyComponentElement: {
-        prototype: HTMLMyComponentElement;
-        new (): HTMLMyComponentElement;
-    };
     interface HTMLElementTagNameMap {
         "idesoft-copyright": HTMLIdesoftCopyrightElement;
-        "my-component": HTMLMyComponentElement;
     }
 }
 declare namespace LocalJSX {
     interface IdesoftCopyright {
     }
-    interface MyComponent {
-        /**
-          * The first name
-         */
-        "first"?: string;
-        /**
-          * The last name
-         */
-        "last"?: string;
-        /**
-          * The middle name
-         */
-        "middle"?: string;
-    }
     interface IntrinsicElements {
         "idesoft-copyright": IdesoftCopyright;
-        "my-component": MyComponent;
     }
 }
 export { LocalJSX as JSX };
@@ -68,7 +32,6 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "idesoft-copyright": LocalJSX.IdesoftCopyright & JSXBase.HTMLAttributes<HTMLIdesoftCopyrightElement>;
-            "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
         }
     }
 }
