@@ -1,7 +1,7 @@
 {
   "name": "@idesoftsystems/idesoft-badges",
   "version": "0.1.0",
-  "description": "Stencil Component Starter",
+  "description": "Idesoft Systems Badges Components",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
