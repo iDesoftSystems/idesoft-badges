@@ -1,0 +1,29 @@
+:host {
+    display: block;
+}
+.idesoft-copyright-outer {
+    display: inline-flex;
+    color: #8c8c8c;
+    align-items: center;
+}
+.idesoft-copyright-outer span {
+    margin-right: 5px;
+}
+.code-badge-icon svg {
+    height: 12px;
+    fill: #8c8c8c;
+    margin-right: 5px;
+}
+.code-love-icon svg {
+    height: 12px;
+    vertical-align: -2px;
+    fill: #8c8c8c;
+    margin-right: 5px;
+}
+.idesoft-icon svg {
+    height: 26px;
+    fill: #8c8c8c;
+}
+.idesoft-icon svg:hover {
+    fill: #707070;
+}
