@@ -1,5 +1,5 @@
 {
-  "name": "idesoft-badges",
+  "name": "@idesoftsystems/idesoft-badges",
   "version": "0.1.0",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
